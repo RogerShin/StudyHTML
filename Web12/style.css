@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    background-color: rgb(165, 165, 247);
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+li a:hover {
+    color: rgba(255, 215, 141, 0.825);
+    border: red 2px solid;
+}

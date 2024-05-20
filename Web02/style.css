@@ -1,0 +1,29 @@
+.Left,
+.Right {
+    background-color: yellow;
+    color: #31304d;
+}
+
+.Middle {
+    background-color: pink;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.Middle h1 {
+    background-color: brown;
+    color: white;
+    margin: 30px;
+}
+
+.Middle h4 {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+
+.Middle p {
+    background-color: green;
+    color: white;
+}

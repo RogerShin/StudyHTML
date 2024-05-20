@@ -1,0 +1,130 @@
+/* @import url(./normalize.css); */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 用float方式製作: */
+
+/* div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    padding: 10px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgba(255, 228, 196, 0.688);
+    float: left;
+}
+
+ul {
+    background-color: rgba(227, 143, 143, 0.723);
+    float: right;
+    
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    background-color: rgba(222, 146, 98, 0.86);
+        display: block;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+/* 用position方式製作: */
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+ul {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+li a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.icon1 a {
+    background-image: url(./icon1_1.png);
+}
+
+.icon2 a {
+    background-image: url(./icon2_1.png);
+}
+
+.icon3 a {
+    background-image: url(./icon3_1.png);
+}
+
+.icon4 a {
+    background-image: url(./icon4_1.png);
+}
+
+.icon5 a {
+    background-image: url(./icon5_1.png);
+}
+
+
+.icon1 :hover {
+    text-decoration: underline;
+    background-image: url(./icon1_2.png);
+}
+
+.icon2 :hover {
+    text-decoration: underline;
+    background-image: url(./icon2_2.png);
+}
+
+.icon3 :hover {
+    text-decoration: underline;
+    background-image: url(./icon3_2.png);
+}
+
+.icon4 :hover {
+    text-decoration: underline;
+    background-image: url(./icon4_2.png);
+}
+
+.icon5 :hover {
+    text-decoration: underline;
+    background-image: url(./icon5_2.png);
+}

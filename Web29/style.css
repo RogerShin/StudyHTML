@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+.header {
+    background-image: url(./banner.png);
+    height: 250px;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    left: 300px;
+    top: 60px
+}
+
+
+.box {
+    display: flex;
+}
+
+.nav {
+    background-color: rgba(215, 236, 143, 0.96);
+    /* float: left; */
+    width: 200px;
+
+}
+
+.nav ul {
+   text-align: center;
+}
+
+.nav li {}
+
+.nav a {}
+
+
+
+.content {
+    background-color: rgba(142, 199, 245, 0.977);
+    /* float: right; */
+    width: 1000px;
+}
+
+.content h2 {}
+
+.content p {}
+
+
+
+.footer {
+    background-color: rgba(248, 191, 191, 0.918);
+    /* clear: both; */
+}
+
+.footer h3 {}
+
+.footer h4 {}

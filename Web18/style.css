@@ -1,0 +1,72 @@
+/* @import url(./normalize.css); */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #E3E1C6;
+}
+
+.wrapper {
+	/* width: 100%; */
+	background-color: #FFF;
+	/* margin: 0 auto; */
+	
+}
+
+.header {
+	border-top: #066 20px solid;
+	border-bottom: #066 20px solid;
+}
+
+.header img {
+	vertical-align: bottom;
+	max-width: 100%;
+}
+
+.box {
+	display: flex;
+	/* text-align: justify; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-evenly; */
+	/* padding: 0 20px; */
+	/* align-items: flex-end; */
+	/* height: 2000px; */
+	/* align-content: center; */
+}
+
+.box>div {
+	/* width: 350px;
+	padding: 20px;
+	box-sizing: border-box; */
+}
+
+.b1 {
+	background-color: rgba(238, 152, 152, 0.853);
+	/* align-self: start; */
+	flex: 1 1 400px;
+}
+
+.b2 {
+	background-color: rgba(243, 206, 142, 0.842);
+	flex: 0 3 400px;
+}
+
+.b3 {
+	background-color: rgba(145, 221, 182, 0.711);
+	flex: 1 0 400px;
+}
+
+/* .b4 {
+	background-color: rgba(238, 238, 155, 0.853);
+}
+
+.b5 {
+	background-color: rgba(123, 209, 227, 0.842);
+}
+
+.b6 {
+	background-color: rgba(228, 174, 243, 0.711);
+} */

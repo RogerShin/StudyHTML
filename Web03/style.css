@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+a {
+    color: rgba(28, 13, 185, 0.438);
+    font-size: 50px;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}

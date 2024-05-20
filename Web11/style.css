@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.box {
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.box a {
+    background-image: url(./btn01.png);
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 70px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    background-image: url(./btn02.png);
+    color: rgba(249, 198, 78, 0.888);
+}

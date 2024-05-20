@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCC;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+h3 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+.wrapper {
+	background-color: #FFF;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.box {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #333 3px solid;
+	border-radius: 20px;
+}
+
+/*==============================*/
+.box1 {
+	background-color: #F90;
+}
+
+/*==============================*/
+.box2 {
+	background-color: #9C0;
+}
+
+/*==============================*/
+.box3 {
+	background-color: #09F;
+}
+
+
+
+/*======字型嵌入======*/
+
+
+.dancing-script {
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.jersey-25-regular {
+	font-family: "Jersey 25", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.pacifico-regular {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.material-symbols-rounded {
+	vertical-align: top;
+}
+
+.box1 p::before {
+	content: "favorite";
+	font-family: "Material Symbols Rounded";
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.box1 p::after {
+	content: "star_rate_halfstar_rate";
+	margin-left: 10px;
+	font-family: "Material Symbols Rounded";
+	vertical-align: middle;
+
+}
+
+@font-face {
+	font-family: "3Dumb";
+	src: url(./3Dumb.ttf);
+}
+
+h2{
+	font-family: "3Dumb";
+}
+
+@font-face {
+	font-family: Entypo;
+	src: url(./Entypo-webfont.ttf);
+}
+
+/* .box2 li::before{
+
+	content: "w";
+	font-family: Entypo;
+	margin-right: 10px;
+} */
+
+li span{
+	font-family: Entypo;
+}
+
+.box2 ul{
+	list-style: none;
+}
+
+.box2 ul span{
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+
+
+.box3 ul{
+	list-style: none;
+	
+}
+.box3 li{
+	margin-left: 60px;
+
+}
+.box3 li a {
+	display: block;
+	background-color:black;
+	color: #FFF;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	text-indent: 50px;
+	
+
+}
+
+.box3 ul li a:hover{
+	color: white;
+	background-color: rgba(187, 47, 47, 0.638);
+	
+}
+
+.box3 ul li a span{
+	margin-right: 10px ;
+	font-size: 36px;
+	vertical-align: middle;
+	
+}
+
+.box3 li a:hover span{
+	color: #F90;
+}
+
+

@@ -1,0 +1,25 @@
+ body {
+     background-color: rgba(123, 201, 241, 0.822);
+ }
+
+ h1 {
+     color: black;
+     text-align: center;
+     font-size: 30px;
+     letter-spacing: 3px;
+ }
+
+ h2 {
+     color: black;
+     font-size: 20px;
+     letter-spacing: 2px;
+     font-style: oblique;
+ }
+
+ p {
+     color: black;
+     font-size: 15px;
+     line-height: 30px;
+     letter-spacing: 3px;
+     text-align: justify;
+ }

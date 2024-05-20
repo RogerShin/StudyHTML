@@ -1,0 +1,20 @@
+a {
+    background-color: blanchedalmond;
+    color: rgb(20, 128, 210);
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    border-radius: 40px 20px 0 10px/20px 15px 0 20px;
+    box-shadow: 2px 2px 8px 3px black;
+    text-shadow: 3px 3px 2px rgba(116, 98, 216, 0.9);
+}
+
+a:hover {
+    text-decoration: underline;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(153, 152, 224, 1) 0%, rgba(11, 232, 154, 1) 20%, rgba(206, 224, 11, 1) 30%, rgba(237, 158, 11, 1) 54%, rgba(244, 244, 12, 1) 72%, rgba(188, 57, 9, 1) 100%);
+
+}

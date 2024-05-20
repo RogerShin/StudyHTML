@@ -1,0 +1,29 @@
+@import url("./normalize.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 1200px;
+    height: 350px;
+    background-image: url(./banner.jpg);
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    background-color: rgba(255, 228, 196, 0.6);
+    position: absolute;
+    left: 650px;
+    top: 120px;
+}
+
+p {
+    background-color: rgba(235, 179, 179, 0.614);
+    position: absolute;
+    width: 450px;
+    left: 650px;
+    top: 180px;
+}
